@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.a11_trackmystock.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:popupTheme="@style/ToolbarTheme"
+        android:theme="@style/ToolbarTheme"></android.support.v7.widget.Toolbar>
+
+    <!-- List with RecyclerView -->
+    <ListView
+        android:layout_below="@id/toolbar_main"
+        android:id="@+id/product_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+
+    <!-- Empty state view -->
+
+    <RelativeLayout
+        android:id="@+id/empty_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/empty_view_img"
+            android:layout_width="@dimen/empty_view_image_size"
+            android:layout_height="@dimen/empty_view_image_size"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/empty_view" />
+
+        <TextView
+            android:id="@+id/empty_view_text"
+            style="@style/EmptyViewState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/empty_view_img"
+            android:text="@string/empty_view_state" />
+
+    </RelativeLayout>
+
+
+    <!-- FAB -->
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/fab_add_margin"
+        android:scaleType="center"
+        android:src="@drawable/ic_add_white" />
+
+</RelativeLayout>

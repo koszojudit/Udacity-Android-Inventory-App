@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--List item dimensions -->
+    <dimen name="list_item_padding">8dp</dimen>
+    <dimen name="list_view_image_size">80dp</dimen>
+    <dimen name="list_price_paddingTop">16dp</dimen>
+
+    <!--Main activity dimensions -->
+    <dimen name="empty_view_image_size">250dp</dimen>
+    <dimen name="empty_view_margin">32dp</dimen>
+    <dimen name="fab_add_margin">16dp</dimen>
+
+    <!--Editor activity dimensions -->
+    <dimen name="round_button_size">48dp</dimen>
+    <dimen name="round_button_padding">20dp</dimen>
+    <dimen name="edit_product_name_margin">16dp</dimen>
+    <dimen name="edit_price_padding">32dp</dimen>
+    <dimen name="edit_quantity_padding">32dp</dimen>
+
+    <!--Details activity dimensions -->
+    <dimen name="price_paddingTop">8dp</dimen>
+    <dimen name="supplier_padding">8dp</dimen>
+    <dimen name="supplier_sub_marginBottom">8dp</dimen>
+
+    <!--Editor & details activity dimensions -->
+    <dimen name="square_button_size">48dp</dimen>
+
+
+    <!--List item text sizes -->
+    <dimen name="list_product_name_textSize">20sp</dimen>
+    <dimen name="list_price_textSize">16sp</dimen>
+    <dimen name="list_quantity_textSize">24sp</dimen>
+    <dimen name="in_stock_textSize">14sp</dimen>
+
+    <!--Main activity text sizes -->
+    <dimen name="empty_view_textSize">20sp</dimen>
+
+    <!--Editor activity text sizes -->
+    <dimen name="editor_subtitle_textSize">18sp</dimen>
+    <dimen name="editor_currency_textSize">20sp</dimen>
+
+    <!--Details activity text sizes -->
+    <dimen name="product_name_textSize">24sp</dimen>
+    <dimen name="price_textSize">20sp</dimen>
+    <dimen name="supplier_textSize">18sp</dimen>
+
+    <!--Editor & details activity text sizes -->
+
+
+
+</resources>

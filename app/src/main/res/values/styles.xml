@@ -1,0 +1,130 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:textColorSecondary">@color/colorText</item>
+        <item name="android:textColor">@color/colorText</item>
+
+    </style>
+
+    <!-- Toolbar theme. -->
+    <style name="ToolbarTheme">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorLight</item>
+        <item name="android:colorControlNormal">@color/colorLight</item>
+    </style>
+
+    <style name="EmptyViewState">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">@dimen/empty_view_textSize</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">@dimen/empty_view_margin</item>
+    </style>
+
+
+    <style name="AppTheme.ButtonStyle" parent="Widget.AppCompat.Button.Colored">
+        <item name="backgroundTint">@color/colorLight</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="ProductName">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">@dimen/product_name_textSize</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+    <style name="ProductPrice">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">@dimen/list_price_textSize</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:paddingTop">@dimen/list_price_paddingTop</item>
+    </style>
+
+    <style name="Quantity">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">@dimen/list_quantity_textSize</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="Editor_Quantity">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:inputType">number</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:layout_marginLeft">@dimen/edit_quantity_padding</item>
+        <item name="android:layout_marginRight">@dimen/edit_quantity_padding</item>
+    </style>
+
+    <style name="InStock">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">@dimen/in_stock_textSize</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="Editor_Subtitle">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">@dimen/editor_subtitle_textSize</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="Supplier_Subtitle">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">@dimen/editor_subtitle_textSize</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_marginBottom">@dimen/supplier_sub_marginBottom</item>
+    </style>
+
+    <style name="Editor_TextField">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:inputType">text</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+    <style name="Editor_Price">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+    <style name="Details_TextField">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:layout_margin">@dimen/supplier_padding</item>
+        <item name="android:textSize">@dimen/supplier_textSize</item>
+    </style>
+
+    <style name="Details_Price">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+    <style name="Currency">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:layout_toRightOf">@id/edit_price</item>
+        <item name="android:text">@string/currency</item>
+        <item name="android:textSize">@dimen/editor_currency_textSize</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+</resources>

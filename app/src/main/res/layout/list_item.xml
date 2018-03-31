@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/list_item_padding"
+    android:background="@color/colorLight"
+    android:descendantFocusability="blocksDescendants">
+
+    <ImageView
+        android:id="@+id/list_product_image"
+        android:layout_width="@dimen/list_view_image_size"
+        android:layout_height="@dimen/list_view_image_size"
+        android:src="@mipmap/ic_launcher"
+       android:layout_gravity="" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/list_item_padding">
+
+        <TextView
+            android:id="@+id/list_product_name"
+            style="@style/ProductName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_product_name" />
+
+        <TextView
+            android:id="@+id/list_product_price"
+            style="@style/ProductPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_price" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/list_view_image_size"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/list_quantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/placeholder_product_number"
+            style="@style/Quantity" />
+
+        <TextView
+            android:id="@+id/in_stock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/product_in_stock"
+            style="@style/InStock"/>
+        
+        <Button
+            android:id="@+id/button_sold"
+            style="@style/AppTheme.ButtonStyle"
+            android:text="@string/button_label_sold"/>
+        
+    </LinearLayout>
+
+
+</LinearLayout>
